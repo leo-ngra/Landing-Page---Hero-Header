@@ -14,12 +14,15 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         background-color: #F8FDFF;
+        font-family: Poppins, sans-serif;
     }
 
     button {
-        background-color: none;
+        font-family: Poppins, sans-serif;
+        background-color: transparent;
         border: none;
         outline: none;
+        cursor: pointer;
     }
 
     a {
