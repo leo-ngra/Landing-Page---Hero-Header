@@ -10,6 +10,10 @@ const Frontend = ({ children }: FrontendProps) => {
     <>
         <S.Container>
           <Header></Header>
+
+          <main>
+            {children}
+          </main>
         </S.Container>
     </> 
   )
